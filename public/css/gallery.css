@@ -1,0 +1,29 @@
+.img-thumbnail.btn-create-gallery {
+    width: 200px;
+    height: 200px;
+    line-height: 190px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid-item > img {
+    width: 200px;
+}
+
+/*
+.grid-item > img:hover + .img-info {
+    display: block;
+}
+*/
+
+
+.img-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: aliceblue;
+    padding: 10px;
+    display: none;
+    z-index: 2000;
+}
